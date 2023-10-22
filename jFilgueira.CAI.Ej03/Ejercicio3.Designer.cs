@@ -163,14 +163,17 @@
             // 
             // PaiseCmb
             // 
+            this.PaiseCmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PaiseCmb.FormattingEnabled = true;
             this.PaiseCmb.Location = new System.Drawing.Point(46, 47);
             this.PaiseCmb.Name = "PaiseCmb";
             this.PaiseCmb.Size = new System.Drawing.Size(121, 23);
             this.PaiseCmb.TabIndex = 4;
+            this.PaiseCmb.SelectedIndexChanged += new System.EventHandler(this.PaiseCmb_SelectedIndexChanged);
             // 
             // provinciaCMB
             // 
+            this.provinciaCMB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.provinciaCMB.FormattingEnabled = true;
             this.provinciaCMB.Location = new System.Drawing.Point(50, 122);
             this.provinciaCMB.Name = "provinciaCMB";
@@ -180,6 +183,7 @@
             // 
             // LocalidadCMB
             // 
+            this.LocalidadCMB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.LocalidadCMB.FormattingEnabled = true;
             this.LocalidadCMB.Location = new System.Drawing.Point(50, 210);
             this.LocalidadCMB.Name = "LocalidadCMB";
